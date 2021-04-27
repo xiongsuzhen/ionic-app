@@ -2,6 +2,8 @@
 // http://ionicframework.com/docs/theming/
 
 /** Ionic CSS Variables **/
+
+
 :root {
   /** primary **/
   --ion-color-primary: #3880ff;
@@ -75,6 +77,19 @@
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 }
+
+@import "theme.primary.scss";
+@import "theme.dark.scss";
+@import "theme.light.scss";
+
+.input-clear-icon.sc-ion-input-ios{
+  margin-bottom: 10px;
+}
+
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   /*
